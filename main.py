@@ -4,7 +4,7 @@ import os
 import random
 
 # ================= CẤU HÌNH CHÍNH =================
-TOKEN = 'MTQ5MDMzNDE2ODcyOTY1MzI0OA.Gkt74h.vxabAn6EjxfrhGWpHNQEIZquNe2HaHEB_232Aw'
+TOKEN = os.getenv("MTQ5MDMzNDE2ODcyOTY1MzI0OA.Gkt74h.vxabAn6EjxfrhGWpHNQEIZquNe2HaHEB_232Aw")
 STATUS_TEXT = "💚 Chỉ yêu mình Hyyy"
 
 class MyBot(commands.Bot):
