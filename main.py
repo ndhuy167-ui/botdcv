@@ -5,7 +5,7 @@ import random
 
 # ================= CẤU HÌNH CHÍNH =================
 TOKEN = 'MTQ5MDMzNDE2ODcyOTY1MzI0OA.Gkt74h.vxabAn6EjxfrhGWpHNQEIZquNe2HaHEB_232Aw'
-STATUS_TEXT = "Hary 💜 Kim Cương"
+STATUS_TEXT = "💚 Chỉ yêu mình Hyyy"
 
 class MyBot(commands.Bot):
     def __init__(self):
@@ -41,7 +41,7 @@ class MyBot(commands.Bot):
 bot = MyBot()
 
 # ================= LỆNH LÀM MỚI CODE (KHÔNG TẮT BOT) =================
-@bot.tree.command(name="reload", description="🔄 Làm mới lại toàn bộ code (Chỉ dành cho Sếp Hary)")
+@bot.tree.command(name="reload", description="🔄 Làm mới lại toàn bộ code (Chỉ dành cho Sếp John Dawson)")
 async def reload(interaction: discord.Interaction):
     # Dùng defer để Bot có thời gian xử lý tải file
     await interaction.response.defer(ephemeral=True)
